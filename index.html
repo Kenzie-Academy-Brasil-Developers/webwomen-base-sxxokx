@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./pages/home/index.css">
+    <link rel="stylesheet" href="./styles/position.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+</head>
+<body>
+  <div>
+    <img  class="back-top" src="./assets/img/Pexels Photo by Christina Morillo.svg" alt="">
+  </div>
+  
+  <header class="flex colum itens-center marg wrap">
+    <section>
+      <div>
+        <h2>Webwomen</h2>
+        <h1>
+          Lugar de mulher é onde ela quiser!
+        </h1>
+        <p>
+          Está procurando oportunidade de estágio, emprego ou bolsa de estudo?
+          Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil
+           e ao redor do mundo?
+          <strong>Confere aqui embaido o que temos pra você!</strong>
+        </p>
+        <button class="button-vagas">Ir para seção das vagas</button>
+      </div>
+    </section>
+  </header>
+  <main class="container flex gap2">     
+    <section class=" divisor start">
+        <h3 class="marg-top marg-bottom">Vagas</h3>
+        <ul id="vagas-tela ">
+        <!-- <section class="back-itens marg-bottom">
+            <section class="flex colum gap2 ">
+              <h3>Pessoa desenvolvedora front-end - React</h3>
+              <div class="flex gap2">
+                <p>Kenzie</p>
+                <p>Curitiba</p>
+              </div>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </section>
+            <div class="flex between marg-top">
+                <button class="tipo-vaga">Home office</button>
+                <button id="butt-candidatar" class="candidatar">Candidatar</button>
+            </div>
+          </section> -->
+        </ul>
+      </section>
+      
+      <aside class="marg-top2 flex wrap">
+        <section class="back-list ">
+          <h2 class="marg-bottom marg-top title-caixa">Vagas selecionadas</h2>
+          <section class="novos-selec start">
+            <div class="flex between gap">
+              <h3>Pessoa desenvolvedora front-end - React JS</h3>
+              <button class="trash"><img src="./assets/img/trash.svg" alt=""></button>
+            </div>
+            <div class="flex gap2 marg-top">
+              <p>Kenzie</p>
+              <p>Curitiba</p>
+            </div>
+          </section>
+        </section>
+      </aside>
+
+
+    </main>
+
+
+    <script src="./pages/home/jobsData.js"></script>
+    <script src="./pages/home/index.js"></script>
+    <script src="./pages/home/cards.js"></script>
+</body>
+</html>
