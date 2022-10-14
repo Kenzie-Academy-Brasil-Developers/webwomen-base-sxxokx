@@ -58,3 +58,9 @@ body {
 button{
   cursor: pointer;
 }
+.cardVagas{
+  display: none;
+}
+ul{
+  list-style: none;
+}
