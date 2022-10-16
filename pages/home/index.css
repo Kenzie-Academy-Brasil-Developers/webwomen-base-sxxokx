@@ -1,23 +1,51 @@
-/* Desenvolva sua estilização aqui... */
-
-header{
-    color: white;
-    position: absolute;
-    top: 0rem;
-    right: 0rem;
-    height: 38.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-.marg{
-    margin: 0 auto;
-}
-.divisor{
-    width: 60%;
+.border{
+    border: 1px solid;
 }
 
-.title-caixa{
-    margin: 2rem;
+.border_transparent{
+    border-color: transparent;
 }
+
+.border_none{
+    border: none;
+}
+
+.header{
+    min-height: 740px;
+    width: 100%;
+    background-image: url(../../assets/img/header-bg.svg);
+    background-position:center;
+    background-size: cover;
+}
+
+.background_img{
+    max-width: 100%;
+}
+
+
+.header_logo{
+    margin-top: 100px;
+}
+
+.header_title{
+    color: var(--color-grey-3);
+}
+
+.header_p-1{
+    color: var(--color-grey-5);
+    line-height: 2rem;
+    max-width: 900px;
+}
+.header_p-2{
+    line-height: 150%;
+    font-size: var(--text-1);
+    color: var(--color-grey-3);
+}
+
+
+
+.anchor_link{
+    text-decoration: none;
+    color: inherit;
+}
+

@@ -1,42 +1,68 @@
-.flex{
-    display: flex;
-}
-.colum{
-    flex-direction: column;
-}
-.start{
-    justify-content: flex-start;
-}
-.itens-start{
-    align-items: flex-start;
-}
-.itens-center{
-    align-items: center;
-}
-.just-center{
-    justify-content: center;
-}
-.between{
-    justify-content: space-between;
-}
-.wrap{
-    flex-wrap: wrap;
-}
-.gap{
-    gap: 1rem;
-}
-.gap2{
+.gap-1{
     gap: 2rem;
 }
-.marg-top{
-    margin-top: 1.5rem;
+
+.gap-2{
+    gap: 2.25rem;
 }
-.marg-top2{
-    margin-top: 4.9rem;
+
+.gap-3{
+    gap: 2.75rem;
 }
-.marg-bottom{
-    margin-bottom: 1.5rem;
+
+.margin_bottom-1{
+    margin-bottom: 3.75rem
 }
-.marg-bottom2{
-    margin-bottom: 4.625rem;
+
+.margin_top-1{
+    margin-top: 2.75rem;
 }
+.flex_row{
+    display: flex;
+}
+
+.flex_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_wrap{
+    flex-wrap: wrap;
+}
+
+.align_center{
+    align-items: center;
+}
+
+.align_end{
+    align-items: flex-end;
+}
+
+.align_start{
+    align-items: flex-start;
+}
+
+.justify_center{
+    justify-content: center;
+}
+
+.justify_between{
+    justify-content: space-between;
+}
+
+.justify_around{
+    justify-content: space-around;
+}
+
+.justify_evenly{
+    justify-content: space-evenly;
+}
+
+.justify_end{
+    justify-content: flex-end;
+}
+
+.justify_start{
+    justify-content: flex-start;
+}
+
